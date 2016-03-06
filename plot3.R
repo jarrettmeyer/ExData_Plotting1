@@ -10,7 +10,6 @@ y_label <- "Energy sub metering"
 x_range <- range(dat$POSIX_Date)
 y_range <- range(dat$Sub_metering_1, dat$Sub_metering_2, dat$Sub_metering_3)
 
-# Draw the main plot surface.
 plot(x_range, y_range,
      type = "n",
      xlab = x_label,
